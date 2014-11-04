@@ -5,4 +5,4 @@ nodeschool.io
 
 NodeSchool.IO provides incredible exercises to Node.JS API's. This project consists of my solutions to these exercises. Please try these exercises yourself before checking the solutions. If you are stuck for ages, you can check these solutions. 
 
-Check [Node School](nodeschool.io) for install instructions.
+Check [Node School](http://www.nodeschool.io) for install instructions.
