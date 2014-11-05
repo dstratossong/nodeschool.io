@@ -21,6 +21,9 @@ module.exports = function () {
 				genreObj = {"name": obj.name, "books": []};
 			}
 		}, function () {
+			// Last push to the queue.
+			if (genreObj)
+				genres.push(genreObj);
 			var f = this.queue;
 			genres.forEach(function (obj) {
 				f(JSON.stringify(obj) + '\n');
@@ -28,4 +31,4 @@ module.exports = function () {
 			this.queue(null);
 		}), 
 		zlib.createGzip());
-}
+};
